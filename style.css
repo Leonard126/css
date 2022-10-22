@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Roboto', sans-serif;
+
+    /* font: normal 16px 'Roboto', sans-serif; */
+}
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+/* a:visited {
+    color: grey;
+} */
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    /* border: 1px solid #424242; */
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 20px; */
+}
+
+/* .social {
+    background: rgb(168, 193, 154);
+    padding: 10px 30px;
+    margin: 10px;
+    border: 1px solid #424242;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+} */
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* .box-model > div {
+    background: #000;
+    height: 200px;
+    width: 25%;
+    float: left;
+    border: 4px solid red;
+    box-sizing: border-box; учитывает ширину бордера
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 30px;
+
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+/* .table tr:nth-child(odd) {
+    background: plum;
+} */
+
+/* .table tr:nth-child(even) {
+    background: plum;
+} */
+
+.link-film {
+    /* border-bottom: 1px solid #424242; */
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    /* color: #86898f; */
+    margin-top: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15PX 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+.btn {
+    background: #000;
+    padding: 15px 20px;
+    color: white;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
